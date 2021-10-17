@@ -1,0 +1,107 @@
+#subcribe{
+    position: relative;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    .container{
+        .subcribe-box{
+            background-color: #ff4747;
+            padding: 40px 50px 0px;
+            position: relative;
+            z-index: 1;
+            margin-bottom: -80px;
+
+            &::before{
+                position: absolute;
+                content: '';
+                left: 0;
+                top: 0;
+                width: 100%;
+                height: 100%;
+                background-image: url(http://html.commonsupport.xyz/2019/Barnet/images/background/shape-1.jpg);
+                background-size: cover;
+                background-position: right center;
+            }
+            .row{
+                flex-wrap: wrap;
+                margin-right: -15px;
+                margin-left: -15px;
+                display: flex;
+
+                .title-column{
+                    margin-bottom: 30px;
+                    position: relative;
+                    width: 100%;
+                    max-width: 50%;
+                    min-height: 1px;
+                    padding-right: 15px;
+                    padding-left: 15px;
+
+                    h2{
+                        position: relative;
+                        font-size: 30px;
+                        line-height: 1.2em;
+                        color: #ffffff;
+                        font-weight: 500;
+                        margin-bottom: 7px;
+                    }
+                }
+                .form-column{
+                    margin-top: 12px;
+                    flex: 0 0 50%;
+                    position: relative;
+                    width: 100%;
+                    min-height: 1px;
+                    padding-right: 15px;
+                    padding-left: 15px;
+                    text-align: right;
+                    form{
+                        .form-group{
+                            position: relative;
+                            display: block;
+                            margin-bottom: 36px;
+                            color: white;
+                            display: flex;
+                            gap: 10px;
+                            input{
+                                position: relative;
+                                display: inline-block;
+                                line-height: 40px;
+                                padding: 10px 50px 10px 30px;
+                                height: 60px;
+                                font-size: 16px;
+                                border-radius: 30px;
+                                border: 2px solid #ff6c6c;
+                                background: #ff6c6c;
+                                color: white;
+                            }
+                            button{
+                                height: 60px;
+                                padding: 10px 40px;
+                                line-height: 24px;
+                                color: #222;
+                                text-align: center;
+                                border-radius: 30px;
+                                display: inline-block;
+                                font-size: 13px;
+                                font-weight: 600;
+                                background: #fff;
+                                letter-spacing: 1px;
+                                text-transform: uppercase;
+                                border: 2px solid #ffffff;
+                                transition: all 0.5s;
+                                &:hover{
+                                    color: white;
+                                    background-color: black;
+                                    border-color: black;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        
+    }
+}
