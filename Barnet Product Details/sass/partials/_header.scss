@@ -1,0 +1,157 @@
+
+.button-g-s{
+    display: inline-block;
+    vertical-align: middle;
+    width: 250px;
+    height: 50px;
+    a{
+        text-transform: capitalize;
+        font-family: 'Open Sans', sans-serif;
+        font-size: 16px;
+        font-weight: 400;
+        padding: 8px 20px;
+        border-radius: 22px;
+        background: #ff4747;
+        line-height: 24px;
+        color: #ffffff;
+        text-align: center;
+        display: inline-block;
+        letter-spacing: 1px;
+    }
+}
+.collapse{
+    ul{
+        position: relative;
+        margin: 0px;
+        text-align: center;
+        li{
+            list-style: none;
+            position: relative;
+            margin: 0px 1px;
+            transition: ease all 0.2s;
+            &:hover:before{
+                opacity: 1;
+                width: 100%;
+                
+            }
+            &::before{
+                position: absolute;
+                content: '';
+                background-color: #ff4747;
+                width: 0%;
+                height: 100%;
+                left: 0;
+                top: 0;
+                transition: .5s ease;
+                opacity: 0;
+                color: white;
+            }
+            &:hover{
+                color: white;
+            }
+            .nav-link{
+                padding-right: 30px;
+                position: relative;
+                display: block;
+                font-size: 15px;
+                color: #262626;
+                line-height: 30px;
+                font-weight: 500;
+                font-family: 'Rubik', sans-serif;
+                opacity: 1;
+                text-transform: uppercase;
+                padding: 40px 16px;
+                transition: all 0.2s ease;
+                    &:hover a{
+                        color: white;
+                    }
+            }
+        }
+    }
+}
+.nav-right-side{
+    position: relative;
+    margin-left: 10px;
+    display: flex;
+    gap: 10px;
+    .search-box{
+        position: relative;
+        display: inline-block;
+        padding: 6px 0;
+        
+        button{
+            position: relative;
+            font-size: 18px;
+            line-height: 28px;
+            color: #222;
+            cursor: pointer;
+            display: inline-block;
+            padding: 7px 0 6px;
+            background: transparent;
+            border-radius: 50px 0px 0px 50px;
+        }
+        
+    }
+}
+
+.top-head{
+    position: relative;
+    font-size: 13px;
+    padding-top: 20px;
+    background: #3648b2;
+    .container{
+        .row{
+            .top-navbar{
+                display: flex;
+                gap: 600px;
+                .left-box-social{
+                    .social-icons{
+                        position: relative;
+                        display: flex;
+                        gap: 20px;
+                        font-size: 13px;
+                        font-weight: normal;
+                        color: #fff;
+                        padding: 0px 5px;
+                        line-height: 26px;
+                        cursor: pointer;
+                        li{
+                            list-style: none;
+                            i{
+                                &:hover{
+                                    color: #ff4747;
+                                }
+                            }
+                        }
+                    }
+                    
+                }
+
+                .right-box{
+                    .topbar-info{
+                        display: flex;
+                        gap: 20px;
+                        position: relative;
+                        margin: 0 -15px;
+                        top: -2px;
+                        li{
+                            list-style: none;
+                            line-height: 1em;
+                            padding: 0 15px;
+                            a{
+                                color: #fff;
+                                font-size: 15px;
+                                font-weight: 600;
+                                i{
+                                    color: #ff4747;
+                                    margin-right: 6px;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+

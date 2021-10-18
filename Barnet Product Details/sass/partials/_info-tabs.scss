@@ -1,0 +1,57 @@
+.slide-product{
+    .description{
+        display: flex;
+        gap: 10px;
+        border-bottom: 1px solid #f2f2f2;
+        padding-bottom: 30px;
+        .describ-btn{
+            position: relative;
+            display: inline-block;
+            font-size: 16px;
+            line-height: 30px;
+            color: #ffffff;
+            width: 150px;
+            height: 50px;
+            padding: 8px 30px;
+            font-weight: 600;
+            overflow: hidden;
+            border-radius: 50px;
+            letter-spacing: 1px;
+            background-color: #ff4747;
+            text-transform: capitalize;
+        
+        }
+        .review-btn{
+            position: relative;
+            display: inline-block;
+            font-size: 16px;
+            line-height: 30px;
+            color: #000;
+            width: 170px;
+            height: 50px;
+            padding: 8px 30px;
+            font-weight: 600;
+            overflow: hidden;
+            border-radius: 50px;
+            letter-spacing: 1px;
+            background-color: #fff;
+            text-transform: capitalize;
+            border: 1px solid gray;
+        }
+    }
+
+    .content{
+        margin-top: 50px;
+        .title-box{
+            h3{
+                font-size: 26px;
+                font-weight: 700;
+                margin-bottom: 30px;
+            }
+        }
+        .text-box{
+            font-size: 15px;
+            color: #808080;
+        }
+    }
+}
